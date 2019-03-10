@@ -1,0 +1,173 @@
+{
+  "id": "b02fb7d9-303d-4645-a8d6-57979e23efe5",
+  "name": "viewloc",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536958888,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8e7ba08a-f463-4737-af76-a11ad90c53d9",
+      "data": [
+        {
+          "text": "show my ",
+          "userDefined": false
+        },
+        {
+          "text": "locations",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536780782,
+      "isAuto": false
+    },
+    {
+      "id": "17af0547-d1e2-45c0-9a84-3ac62488caa7",
+      "data": [
+        {
+          "text": "show saved ",
+          "userDefined": false
+        },
+        {
+          "text": "locations",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536780782,
+      "isAuto": false
+    },
+    {
+      "id": "85c44f8c-b864-4a34-9abf-7bf856d88fac",
+      "data": [
+        {
+          "text": "view my ",
+          "userDefined": false
+        },
+        {
+          "text": "locations",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1536780782,
+      "isAuto": false
+    },
+    {
+      "id": "b1edac35-7007-477f-b2db-6c7acea1e4e3",
+      "data": [
+        {
+          "text": "view saved ",
+          "userDefined": false
+        },
+        {
+          "text": "locations",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536780782,
+      "isAuto": false
+    },
+    {
+      "id": "e1bbce88-965e-4663-9b48-8f9713218329",
+      "data": [
+        {
+          "text": "view saved",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536780782,
+      "isAuto": false
+    },
+    {
+      "id": "7dfeae3b-7c26-4bee-8e4c-c9fd19c15348",
+      "data": [
+        {
+          "text": "display",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536780782,
+      "isAuto": false
+    },
+    {
+      "id": "e9e02c98-e98a-48c6-b239-13ef03267d98",
+      "data": [
+        {
+          "text": "display ",
+          "userDefined": false
+        },
+        {
+          "text": "locations",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536780782,
+      "isAuto": false
+    },
+    {
+      "id": "7c950d07-1f4d-49b3-bffb-521aff34b6f4",
+      "data": [
+        {
+          "text": "show",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1536780782,
+      "isAuto": false
+    },
+    {
+      "id": "284b3eb8-70c7-43fc-b66d-6c10f5775bbe",
+      "data": [
+        {
+          "text": "View",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536780782,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
